@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WorldSkillsDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="City">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="StateId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CompetitionTbl">
+    <Key>
+      <PropertyRef Name="CompetitionId" />
+    </Key>
+    <Property Name="CompetitionId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompetitionName" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CompetitionTimeTbl">
+    <Key>
+      <PropertyRef Name="CompetitionTimeId" />
+    </Key>
+    <Property Name="CompetitionTimeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompetitionStartDateTime" Type="datetime" Nullable="false" />
+    <Property Name="CompetitionId" Type="int" Nullable="false" />
+    <Property Name="CompetitionFinishDateTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FileTimeTbl">
+    <Key>
+      <PropertyRef Name="timeId" />
+    </Key>
+    <Property Name="timeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="timeLabel" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HardshipTbl">
+    <Key>
+      <PropertyRef Name="HardshipId" />
+    </Key>
+    <Property Name="HardshipId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Hardshiplabel" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LevelTbl">
+    <Key>
+      <PropertyRef Name="LevelId" />
+    </Key>
+    <Property Name="LevelId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LevelLabel" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LoginLogTbl">
+    <Key>
+      <PropertyRef Name="LoginLogId" />
+    </Key>
+    <Property Name="LoginLogId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LoginLogTime" Type="datetime" Nullable="false" />
+    <Property Name="LoginLogUser" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LogoutLogTbl">
+    <Key>
+      <PropertyRef Name="LogoutLogId" />
+    </Key>
+    <Property Name="LogoutLogId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LogoutLogTime" Type="datetime" Nullable="false" />
+    <Property Name="LogoutLogUser" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="QuestionFileTbl">
+    <Key>
+      <PropertyRef Name="QuestionFIleId" />
+    </Key>
+    <Property Name="QuestionFIleId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="QuestionFileName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="QuestionCompetitionId" Type="int" Nullable="false" />
+    <Property Name="QuestionCompetitionDateTime" Type="int" Nullable="false" />
+    <Property Name="QuestionCompetitionLevel" Type="int" Nullable="false" />
+    <Property Name="QuestionHardship" Type="int" Nullable="false" />
+    <Property Name="QuestionUploadedUser" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RullTbl">
+    <Key>
+      <PropertyRef Name="RullId" />
+    </Key>
+    <Property Name="RullId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RullName" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="State">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="SurvayCountTbl">
+    <Key>
+      <PropertyRef Name="SurvayCountId" />
+    </Key>
+    <Property Name="SurvayCountId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompetitionId" Type="int" Nullable="false" />
+    <Property Name="CompetitionTimeId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SurvayTbl">
+    <Key>
+      <PropertyRef Name="SurvayId" />
+    </Key>
+    <Property Name="SurvayId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SurvayCompetitionStartTime" Type="int" Nullable="false" />
+    <Property Name="SurvayUserNationalCode" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="SurvayCompetition" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SurvayTimeTbl">
+    <Key>
+      <PropertyRef Name="SurvayTimeId" />
+    </Key>
+    <Property Name="SurvayTimeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SurvayTimeDate" Type="datetime" Nullable="false" />
+    <Property Name="SurvayStartComDate" Type="int" Nullable="false" />
+    <Property Name="SurvayCom" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="UserTbl">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="UserLastName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="UserNationalCode" Type="nvarchar" MaxLength="11" Nullable="false" />
+    <Property Name="UserPassword" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="UserBirhtday" Type="datetime" Nullable="false" />
+    <Property Name="UserCompetition" Type="int" />
+    <Property Name="UserStatus" Type="int" />
+    <Property Name="UserRull" Type="int" Nullable="false" />
+    <Property Name="UserPhoto" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="UserStateId" Type="int" Nullable="false" />
+    <Property Name="UserCityId" Type="int" Nullable="false" />
+    <Property Name="UserCompetitionCount" Type="int" />
+  </EntityType>
+  <Association Name="FK_City_State">
+    <End Role="State" Type="Self.State" Multiplicity="1" />
+    <End Role="City" Type="Self.City" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="City">
+        <PropertyRef Name="StateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserTbl_City">
+    <End Role="City" Type="Self.City" Multiplicity="1" />
+    <End Role="UserTbl" Type="Self.UserTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="City">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserTbl">
+        <PropertyRef Name="UserCityId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserTbl_RullTbl">
+    <End Role="RullTbl" Type="Self.RullTbl" Multiplicity="1" />
+    <End Role="UserTbl" Type="Self.UserTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RullTbl">
+        <PropertyRef Name="RullId" />
+      </Principal>
+      <Dependent Role="UserTbl">
+        <PropertyRef Name="UserRull" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserTbl_State">
+    <End Role="State" Type="Self.State" Multiplicity="1" />
+    <End Role="UserTbl" Type="Self.UserTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserTbl">
+        <PropertyRef Name="UserStateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="WorldSkillsDbModelStoreContainer">
+    <EntitySet Name="City" EntityType="Self.City" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CompetitionTbl" EntityType="Self.CompetitionTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CompetitionTimeTbl" EntityType="Self.CompetitionTimeTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FileTimeTbl" EntityType="Self.FileTimeTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HardshipTbl" EntityType="Self.HardshipTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LevelTbl" EntityType="Self.LevelTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LoginLogTbl" EntityType="Self.LoginLogTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LogoutLogTbl" EntityType="Self.LogoutLogTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QuestionFileTbl" EntityType="Self.QuestionFileTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RullTbl" EntityType="Self.RullTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="State" EntityType="Self.State" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SurvayCountTbl" EntityType="Self.SurvayCountTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SurvayTbl" EntityType="Self.SurvayTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SurvayTimeTbl" EntityType="Self.SurvayTimeTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserTbl" EntityType="Self.UserTbl" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_City_State" Association="Self.FK_City_State">
+      <End Role="State" EntitySet="State" />
+      <End Role="City" EntitySet="City" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserTbl_City" Association="Self.FK_UserTbl_City">
+      <End Role="City" EntitySet="City" />
+      <End Role="UserTbl" EntitySet="UserTbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserTbl_RullTbl" Association="Self.FK_UserTbl_RullTbl">
+      <End Role="RullTbl" EntitySet="RullTbl" />
+      <End Role="UserTbl" EntitySet="UserTbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserTbl_State" Association="Self.FK_UserTbl_State">
+      <End Role="State" EntitySet="State" />
+      <End Role="UserTbl" EntitySet="UserTbl" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

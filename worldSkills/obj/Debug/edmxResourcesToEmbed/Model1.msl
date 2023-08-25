@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WorldSkillsDbModelStoreContainer" CdmEntityContainer="WorldSkillsDbEntities">
+    <EntitySetMapping Name="Cities">
+      <EntityTypeMapping TypeName="WorldSkillsDbModel.City">
+        <MappingFragment StoreEntitySet="City">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="StateId" ColumnName="StateId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CompetitionTbls">
+      <EntityTypeMapping TypeName="WorldSkillsDbModel.CompetitionTbl">
+        <MappingFragment StoreEntitySet="CompetitionTbl">
+          <ScalarProperty Name="CompetitionId" ColumnName="CompetitionId" />
+          <ScalarProperty Name="CompetitionName" ColumnName="CompetitionName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CompetitionTimeTbls">
+      <EntityTypeMapping TypeName="WorldSkillsDbModel.CompetitionTimeTbl">
+        <MappingFragment StoreEntitySet="CompetitionTimeTbl">
+          <ScalarProperty Name="CompetitionTimeId" ColumnName="CompetitionTimeId" />
+          <ScalarProperty Name="CompetitionStartDateTime" ColumnName="CompetitionStartDateTime" />
+          <ScalarProperty Name="CompetitionId" ColumnName="CompetitionId" />
+          <ScalarProperty Name="CompetitionFinishDateTime" ColumnName="CompetitionFinishDateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FileTimeTbls">
+      <EntityTypeMapping TypeName="WorldSkillsDbModel.FileTimeTbl">
+        <MappingFragment StoreEntitySet="FileTimeTbl">
+          <ScalarProperty Name="timeId" ColumnName="timeId" />
+          <ScalarProperty Name="timeLabel" ColumnName="timeLabel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HardshipTbls">
+      <EntityTypeMapping TypeName="WorldSkillsDbModel.HardshipTbl">
+        <MappingFragment StoreEntitySet="HardshipTbl">
+          <ScalarProperty Name="HardshipId" ColumnName="HardshipId" />
+          <ScalarProperty Name="Hardshiplabel" ColumnName="Hardshiplabel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LevelTbls">
+      <EntityTypeMapping TypeName="WorldSkillsDbModel.LevelTbl">
+        <MappingFragment StoreEntitySet="LevelTbl">
+          <ScalarProperty Name="LevelId" ColumnName="LevelId" />
+          <ScalarProperty Name="LevelLabel" ColumnName="LevelLabel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LoginLogTbls">
+      <EntityTypeMapping TypeName="WorldSkillsDbModel.LoginLogTbl">
+        <MappingFragment StoreEntitySet="LoginLogTbl">
+          <ScalarProperty Name="LoginLogId" ColumnName="LoginLogId" />
+          <ScalarProperty Name="LoginLogTime" ColumnName="LoginLogTime" />
+          <ScalarProperty Name="LoginLogUser" ColumnName="LoginLogUser" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LogoutLogTbls">
+      <EntityTypeMapping TypeName="WorldSkillsDbModel.LogoutLogTbl">
+        <MappingFragment StoreEntitySet="LogoutLogTbl">
+          <ScalarProperty Name="LogoutLogId" ColumnName="LogoutLogId" />
+          <ScalarProperty Name="LogoutLogTime" ColumnName="LogoutLogTime" />
+          <ScalarProperty Name="LogoutLogUser" ColumnName="LogoutLogUser" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QuestionFileTbls">
+      <EntityTypeMapping TypeName="WorldSkillsDbModel.QuestionFileTbl">
+        <MappingFragment StoreEntitySet="QuestionFileTbl">
+          <ScalarProperty Name="QuestionFIleId" ColumnName="QuestionFIleId" />
+          <ScalarProperty Name="QuestionFileName" ColumnName="QuestionFileName" />
+          <ScalarProperty Name="QuestionCompetitionId" ColumnName="QuestionCompetitionId" />
+          <ScalarProperty Name="QuestionCompetitionDateTime" ColumnName="QuestionCompetitionDateTime" />
+          <ScalarProperty Name="QuestionCompetitionLevel" ColumnName="QuestionCompetitionLevel" />
+          <ScalarProperty Name="QuestionHardship" ColumnName="QuestionHardship" />
+          <ScalarProperty Name="QuestionUploadedUser" ColumnName="QuestionUploadedUser" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RullTbls">
+      <EntityTypeMapping TypeName="WorldSkillsDbModel.RullTbl">
+        <MappingFragment StoreEntitySet="RullTbl">
+          <ScalarProperty Name="RullId" ColumnName="RullId" />
+          <ScalarProperty Name="RullName" ColumnName="RullName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="States">
+      <EntityTypeMapping TypeName="WorldSkillsDbModel.State">
+        <MappingFragment StoreEntitySet="State">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SurvayCountTbls">
+      <EntityTypeMapping TypeName="WorldSkillsDbModel.SurvayCountTbl">
+        <MappingFragment StoreEntitySet="SurvayCountTbl">
+          <ScalarProperty Name="SurvayCountId" ColumnName="SurvayCountId" />
+          <ScalarProperty Name="CompetitionId" ColumnName="CompetitionId" />
+          <ScalarProperty Name="CompetitionTimeId" ColumnName="CompetitionTimeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SurvayTbls">
+      <EntityTypeMapping TypeName="WorldSkillsDbModel.SurvayTbl">
+        <MappingFragment StoreEntitySet="SurvayTbl">
+          <ScalarProperty Name="SurvayId" ColumnName="SurvayId" />
+          <ScalarProperty Name="SurvayCompetitionStartTime" ColumnName="SurvayCompetitionStartTime" />
+          <ScalarProperty Name="SurvayUserNationalCode" ColumnName="SurvayUserNationalCode" />
+          <ScalarProperty Name="SurvayCompetition" ColumnName="SurvayCompetition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SurvayTimeTbls">
+      <EntityTypeMapping TypeName="WorldSkillsDbModel.SurvayTimeTbl">
+        <MappingFragment StoreEntitySet="SurvayTimeTbl">
+          <ScalarProperty Name="SurvayTimeId" ColumnName="SurvayTimeId" />
+          <ScalarProperty Name="SurvayTimeDate" ColumnName="SurvayTimeDate" />
+          <ScalarProperty Name="SurvayStartComDate" ColumnName="SurvayStartComDate" />
+          <ScalarProperty Name="SurvayCom" ColumnName="SurvayCom" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="WorldSkillsDbModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserTbls">
+      <EntityTypeMapping TypeName="WorldSkillsDbModel.UserTbl">
+        <MappingFragment StoreEntitySet="UserTbl">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserLastName" ColumnName="UserLastName" />
+          <ScalarProperty Name="UserNationalCode" ColumnName="UserNationalCode" />
+          <ScalarProperty Name="UserPassword" ColumnName="UserPassword" />
+          <ScalarProperty Name="UserBirhtday" ColumnName="UserBirhtday" />
+          <ScalarProperty Name="UserCompetition" ColumnName="UserCompetition" />
+          <ScalarProperty Name="UserStatus" ColumnName="UserStatus" />
+          <ScalarProperty Name="UserRull" ColumnName="UserRull" />
+          <ScalarProperty Name="UserPhoto" ColumnName="UserPhoto" />
+          <ScalarProperty Name="UserStateId" ColumnName="UserStateId" />
+          <ScalarProperty Name="UserCityId" ColumnName="UserCityId" />
+          <ScalarProperty Name="UserCompetitionCount" ColumnName="UserCompetitionCount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

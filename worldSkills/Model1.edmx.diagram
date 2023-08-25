@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8a3f0be16b81434796882f471a2757b7" Name="Diagram1">
+        <EntityTypeShape EntityType="WorldSkillsDbModel.City" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldSkillsDbModel.CompetitionTbl" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldSkillsDbModel.CompetitionTimeTbl" Width="1.5" PointX="2.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldSkillsDbModel.FileTimeTbl" Width="1.5" PointX="4.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldSkillsDbModel.HardshipTbl" Width="1.5" PointX="6.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldSkillsDbModel.LevelTbl" Width="1.5" PointX="7.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldSkillsDbModel.LoginLogTbl" Width="1.5" PointX="7.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldSkillsDbModel.LogoutLogTbl" Width="1.5" PointX="8.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldSkillsDbModel.QuestionFileTbl" Width="1.5" PointX="9.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldSkillsDbModel.RullTbl" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldSkillsDbModel.State" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldSkillsDbModel.SurvayCountTbl" Width="1.5" PointX="0.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldSkillsDbModel.SurvayTbl" Width="1.5" PointX="2.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldSkillsDbModel.SurvayTimeTbl" Width="1.5" PointX="4.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldSkillsDbModel.sysdiagram" Width="1.5" PointX="6.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldSkillsDbModel.UserTbl" Width="1.5" PointX="5.25" PointY="2.5" IsExpanded="true" />
+        <AssociationConnector Association="WorldSkillsDbModel.FK_City_State" ManuallyRouted="false" />
+        <AssociationConnector Association="WorldSkillsDbModel.FK_UserTbl_City" ManuallyRouted="false" />
+        <AssociationConnector Association="WorldSkillsDbModel.FK_UserTbl_RullTbl" ManuallyRouted="false" />
+        <AssociationConnector Association="WorldSkillsDbModel.FK_UserTbl_State" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

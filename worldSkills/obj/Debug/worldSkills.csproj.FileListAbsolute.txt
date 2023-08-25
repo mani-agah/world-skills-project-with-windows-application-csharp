@@ -1,0 +1,76 @@
+D:\worldSkills\worldSkills\bin\Debug\worldSkills.exe.config
+D:\worldSkills\worldSkills\bin\Debug\worldSkills.exe
+D:\worldSkills\worldSkills\bin\Debug\worldSkills.pdb
+D:\worldSkills\worldSkills\bin\Debug\EntityFramework.dll
+D:\worldSkills\worldSkills\bin\Debug\EntityFramework.SqlServer.dll
+D:\worldSkills\worldSkills\bin\Debug\EntityFramework.xml
+D:\worldSkills\worldSkills\bin\Debug\EntityFramework.SqlServer.xml
+D:\worldSkills\worldSkills\obj\Debug\worldSkills.csproj.AssemblyReference.cache
+D:\worldSkills\worldSkills\obj\Debug\worldSkills.csproj.SuggestedBindingRedirects.cache
+D:\worldSkills\worldSkills\obj\Debug\worldSkills.adminPanel.resources
+D:\worldSkills\worldSkills\obj\Debug\worldSkills.Form1.resources
+D:\worldSkills\worldSkills\obj\Debug\worldSkills.Properties.Resources.resources
+D:\worldSkills\worldSkills\obj\Debug\worldSkills.SignUpChamp.resources
+D:\worldSkills\worldSkills\obj\Debug\worldSkills.UserPanel.resources
+D:\worldSkills\worldSkills\obj\Debug\worldSkills.csproj.GenerateResource.cache
+D:\worldSkills\worldSkills\obj\Debug\worldSkills.csproj.CoreCompileInputs.cache
+D:\worldSkills\worldSkills\obj\Debug\worldSkills.csproj.CopyComplete
+D:\worldSkills\worldSkills\obj\Debug\worldSkills.exe
+D:\worldSkills\worldSkills\obj\Debug\worldSkills.pdb
+C:\Users\mani\Desktop\c# project\worldSkills\worldSkills\obj\Debug\worldSkills.csproj.AssemblyReference.cache
+C:\Users\mani\Desktop\c# project\worldSkills\worldSkills\obj\Debug\worldSkills.csproj.SuggestedBindingRedirects.cache
+C:\Users\mani\Desktop\c# project\worldSkills\worldSkills\obj\Debug\worldSkills.adminPanel.resources
+C:\Users\mani\Desktop\c# project\worldSkills\worldSkills\obj\Debug\worldSkills.Form1.resources
+C:\Users\mani\Desktop\c# project\worldSkills\worldSkills\obj\Debug\worldSkills.Properties.Resources.resources
+C:\Users\mani\Desktop\c# project\worldSkills\worldSkills\obj\Debug\worldSkills.SignUpChamp.resources
+C:\Users\mani\Desktop\c# project\worldSkills\worldSkills\obj\Debug\worldSkills.UserPanel.resources
+C:\Users\mani\Desktop\c# project\worldSkills\worldSkills\obj\Debug\worldSkills.csproj.GenerateResource.cache
+C:\Users\mani\Desktop\c# project\worldSkills\worldSkills\obj\Debug\worldSkills.csproj.CoreCompileInputs.cache
+C:\Users\mani\Desktop\c# project\worldSkills\worldSkills\bin\Debug\worldSkills.exe.config
+C:\Users\mani\Desktop\c# project\worldSkills\worldSkills\bin\Debug\worldSkills.exe
+C:\Users\mani\Desktop\c# project\worldSkills\worldSkills\bin\Debug\worldSkills.pdb
+C:\Users\mani\Desktop\c# project\worldSkills\worldSkills\bin\Debug\EntityFramework.dll
+C:\Users\mani\Desktop\c# project\worldSkills\worldSkills\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mani\Desktop\c# project\worldSkills\worldSkills\bin\Debug\EntityFramework.xml
+C:\Users\mani\Desktop\c# project\worldSkills\worldSkills\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mani\Desktop\c# project\worldSkills\worldSkills\obj\Debug\worldSkills.csproj.CopyComplete
+C:\Users\mani\Desktop\c# project\worldSkills\worldSkills\obj\Debug\worldSkills.exe
+C:\Users\mani\Desktop\c# project\worldSkills\worldSkills\obj\Debug\worldSkills.pdb
+C:\Users\mani\Desktop\c#\worldSkills\worldSkills\bin\Debug\worldSkills.exe.config
+C:\Users\mani\Desktop\c#\worldSkills\worldSkills\bin\Debug\worldSkills.exe
+C:\Users\mani\Desktop\c#\worldSkills\worldSkills\bin\Debug\worldSkills.pdb
+C:\Users\mani\Desktop\c#\worldSkills\worldSkills\bin\Debug\EntityFramework.dll
+C:\Users\mani\Desktop\c#\worldSkills\worldSkills\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mani\Desktop\c#\worldSkills\worldSkills\bin\Debug\EntityFramework.xml
+C:\Users\mani\Desktop\c#\worldSkills\worldSkills\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mani\Desktop\c#\worldSkills\worldSkills\obj\Debug\worldSkills.csproj.AssemblyReference.cache
+C:\Users\mani\Desktop\c#\worldSkills\worldSkills\obj\Debug\worldSkills.csproj.SuggestedBindingRedirects.cache
+C:\Users\mani\Desktop\c#\worldSkills\worldSkills\obj\Debug\worldSkills.adminPanel.resources
+C:\Users\mani\Desktop\c#\worldSkills\worldSkills\obj\Debug\worldSkills.Form1.resources
+C:\Users\mani\Desktop\c#\worldSkills\worldSkills\obj\Debug\worldSkills.Properties.Resources.resources
+C:\Users\mani\Desktop\c#\worldSkills\worldSkills\obj\Debug\worldSkills.SignUpChamp.resources
+C:\Users\mani\Desktop\c#\worldSkills\worldSkills\obj\Debug\worldSkills.UserPanel.resources
+C:\Users\mani\Desktop\c#\worldSkills\worldSkills\obj\Debug\worldSkills.csproj.GenerateResource.cache
+C:\Users\mani\Desktop\c#\worldSkills\worldSkills\obj\Debug\worldSkills.csproj.CoreCompileInputs.cache
+C:\Users\mani\Desktop\c#\worldSkills\worldSkills\obj\Debug\worldSkills.csproj.CopyComplete
+C:\Users\mani\Desktop\c#\worldSkills\worldSkills\obj\Debug\worldSkills.exe
+C:\Users\mani\Desktop\c#\worldSkills\worldSkills\obj\Debug\worldSkills.pdb
+C:\Users\mani\Desktop\c\worldSkills\worldSkills\bin\Debug\worldSkills.exe.config
+C:\Users\mani\Desktop\c\worldSkills\worldSkills\bin\Debug\worldSkills.exe
+C:\Users\mani\Desktop\c\worldSkills\worldSkills\bin\Debug\worldSkills.pdb
+C:\Users\mani\Desktop\c\worldSkills\worldSkills\bin\Debug\EntityFramework.dll
+C:\Users\mani\Desktop\c\worldSkills\worldSkills\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mani\Desktop\c\worldSkills\worldSkills\bin\Debug\EntityFramework.xml
+C:\Users\mani\Desktop\c\worldSkills\worldSkills\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mani\Desktop\c\worldSkills\worldSkills\obj\Debug\worldSkills.csproj.AssemblyReference.cache
+C:\Users\mani\Desktop\c\worldSkills\worldSkills\obj\Debug\worldSkills.csproj.SuggestedBindingRedirects.cache
+C:\Users\mani\Desktop\c\worldSkills\worldSkills\obj\Debug\worldSkills.adminPanel.resources
+C:\Users\mani\Desktop\c\worldSkills\worldSkills\obj\Debug\worldSkills.Form1.resources
+C:\Users\mani\Desktop\c\worldSkills\worldSkills\obj\Debug\worldSkills.Properties.Resources.resources
+C:\Users\mani\Desktop\c\worldSkills\worldSkills\obj\Debug\worldSkills.SignUpChamp.resources
+C:\Users\mani\Desktop\c\worldSkills\worldSkills\obj\Debug\worldSkills.UserPanel.resources
+C:\Users\mani\Desktop\c\worldSkills\worldSkills\obj\Debug\worldSkills.csproj.GenerateResource.cache
+C:\Users\mani\Desktop\c\worldSkills\worldSkills\obj\Debug\worldSkills.csproj.CoreCompileInputs.cache
+C:\Users\mani\Desktop\c\worldSkills\worldSkills\obj\Debug\worldSkills.csproj.CopyComplete
+C:\Users\mani\Desktop\c\worldSkills\worldSkills\obj\Debug\worldSkills.exe
+C:\Users\mani\Desktop\c\worldSkills\worldSkills\obj\Debug\worldSkills.pdb
